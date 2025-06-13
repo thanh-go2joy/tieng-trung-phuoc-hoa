@@ -9,7 +9,7 @@ export default defineNuxtConfig({
         classSuffix: "",
     },
     app: {
-        baseURL: '/thanh-go2joy/', // bắt buộc!
+        baseURL: '/tieng-trung-phuoc-hoa/', // bắt buộc!
     },
     nitro: {
         preset: 'static',
