@@ -8,4 +8,10 @@ export default defineNuxtConfig({
         fallback: "light", // Nếu không hỗ trợ thì mặc định là sáng
         classSuffix: "",
     },
+    app: {
+        baseURL: '/thanh-go2joy/', // bắt buộc!
+    },
+    nitro: {
+        preset: 'static',
+    },
 });
