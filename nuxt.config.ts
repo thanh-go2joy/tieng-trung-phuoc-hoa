@@ -8,10 +8,4 @@ export default defineNuxtConfig({
         fallback: "light", // Nếu không hỗ trợ thì mặc định là sáng
         classSuffix: "",
     },
-    app: {
-        baseURL: '/tieng-trung-phuoc-hoa/', // bắt buộc!
-    },
-    nitro: {
-        preset: 'static',
-    },
 });

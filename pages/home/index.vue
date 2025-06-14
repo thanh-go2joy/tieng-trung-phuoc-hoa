@@ -19,33 +19,33 @@
                                 <h2
                                     class="text-xl text-orange-500 font-semibold text-center mb-6"
                                 >
-                                    Giao tiếp & Luyện thi HSK
+                                    HSK1-2-3 và Giao Tiếp Căn Bản
                                 </h2>
 
                                 <p class="text-gray-700 mb-4">
-                                    Xin chào quý phụ huynh và các bạn học viên,
+                                    Xin chào các bạn học viên,
                                 </p>
                                 <p class="text-gray-700 mb-4">
                                     Mình là
                                     <span class="font-semibold text-gray-900"
                                         >Trang</span
                                     >, tốt nghiệp chuyên ngành Tiếng Trung và sở
-                                    hữu chứng chỉ <strong>HSK 5</strong>. Hiện
-                                    mình đang giảng dạy các lớp tiếng Trung từ
-                                    cơ bản đến nâng cao, phù hợp với nhiều mục
-                                    tiêu học tập khác nhau.
+                                    hữu chứng chỉ <strong>HSK5</strong>. Hiện
+                                    mình đang khai giảng: lớp Tiếng Trung Giao
+                                    Tiếp Căn Bản.
                                 </p>
 
-                                <ul
+                                <div
                                     class="list-disc list-inside text-gray-700 mb-4 space-y-1"
                                 >
-                                    <li>Giao tiếp tiếng Trung thực tế</li>
-                                    <li>Luyện thi chứng chỉ HSK</li>
-                                    <li>
-                                        Củng cố 4 kỹ năng: Nghe – Nói – Đọc –
-                                        Viết
-                                    </li>
-                                </ul>
+                                    <p>✨Đảm bảo lộ trình học rõ ràng</p>
+                                    <p>✨Phát âm chuẩn và tự tin giao tiếp</p>
+                                    <p>
+                                        ✨Nhiều khung giờ phù hợp, thuận tiện
+                                        cho người đi làm, người mới bắt đầu
+                                    </p>
+                                    <p>✨ Nhận dạy offline/online 1:1</p>
+                                </div>
 
                                 <div
                                     class="bg-teal-50 rounded-xl p-4 mb-4 border border-teal-100"
@@ -55,18 +55,21 @@
                                         tiếp tại nhà hoặc học online
                                     </p>
                                     <p class="text-gray-800">
+                                        <strong>Thời gian học:</strong> 20h -
+                                        21h30 (Mỗi tối)
+                                    </p>
+                                    <p class="text-gray-800">
                                         <strong>Địa điểm:</strong> 542/7, đường
-                                        Cần Câu, tổ 2, ấp 1B, xã Phước Hòa,
-                                        huyện Phú Giáo, tỉnh Bình Dương
+                                        Cần Câu, tổ 2, ấp 1B, xã Phước Hòa, Phú
+                                        Giáo, Bình Dương
                                     </p>
                                     <p class="text-gray-800">
                                         <strong>Đối tượng:</strong> Học sinh,
-                                        sinh viên, người đi làm, người mới bắt
-                                        đầu
+                                        người đi làm, người mới bắt đầu
                                     </p>
                                 </div>
 
-                                <div class="mb-4">
+                                <!-- <div class="mb-4">
                                     <p class="font-semibold text-teal-700 mb-1">
                                         🎯 Cam kết chất lượng:
                                     </p>
@@ -83,14 +86,14 @@
                                             cao
                                         </li>
                                     </ul>
-                                </div>
+                                </div> -->
 
                                 <div class="text-center mt-8">
                                     <a
                                         href="tel:0937704598"
                                         class="inline-block bg-orange-500 hover:bg-orange-600 text-white text-lg font-semibold px-6 py-3 rounded-full shadow-lg transition duration-300"
                                     >
-                                        📞 Gọi ngay: 0937 704 598
+                                        📞 Gọi ngay: 093 770 4598
                                     </a>
                                     <p
                                         class="mt-2 text-sm text-gray-500 italic"
@@ -300,7 +303,7 @@ const personalJourneys = [
 const setLangTitlePersonalJourneys = (value) => {
     switch (value) {
         case 0:
-            return "Giáo viên dạy Tiếng Trung";
+            return "Giảng dạy Tiếng Trung";
         case 1:
             return "Thư ký & Phiên dịch viên";
         case 2:

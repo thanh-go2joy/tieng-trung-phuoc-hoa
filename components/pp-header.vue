@@ -17,7 +17,7 @@
                         <h1
                             class="text-2xl font-bold bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 text-transparent bg-clip-text animate-pulse"
                         >
-                            Nguyễn Thị Huyền Trang
+                            阮氏玄妆
                         </h1>
                     </NuxtLink>
                 </div>
